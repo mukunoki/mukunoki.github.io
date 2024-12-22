@@ -92,11 +92,11 @@ img.top {
 }
 
 a:link {
-	color: #a80013;
+	color: rgb(43,101,78);
 	text-decoration: underline;
 }
 a:hover {
-	color: #a80013;
+	color: rgb(43,101,78);
 	text-decoration: none;
 }
 a:visited {
