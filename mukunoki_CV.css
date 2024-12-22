@@ -42,7 +42,7 @@ h3 {
 	margin: 1em 0 0 0;
 }
 div.main {  
-	background-color: #f2f0ed;
+	background-color: rgb(43,101,78); /*#f2f0ed;*/
 	padding: 0.5em 0;
 	margin: 0 auto;  
 	margin-left: auto;
