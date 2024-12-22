@@ -22,8 +22,8 @@ h1:after {
 	content: "";
 	display: block;
 	height: 6px;
-	background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
-	background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+	background: -webkit-linear-gradient(to right, rgb(43,101,78);, transparent);
+	background: linear-gradient(to right, rgb(43,101,78);, transparent);
 }
 h2 {
 	font-size: 1.2em;
@@ -34,8 +34,8 @@ h2:after {
 	content: "";
 	display: block;
 	height: 2px;
-	background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
-	background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+	background: -webkit-linear-gradient(to right, rgb(43,101,78);, transparent);
+	background: linear-gradient(to right, rgb(43,101,78);, transparent);
 }
 h3 {
 	font-size: 1em;
