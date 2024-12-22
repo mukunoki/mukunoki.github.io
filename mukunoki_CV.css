@@ -53,7 +53,7 @@ div.head {
 	background-color: #ffffff;
 }
 div.navi {
-	background-color: #a80013;
+	background-color: rgb(43,101,78);
 	color: #ffffff;
 	font-family: sans-serif; /**/
 	padding: 0.5em;
@@ -100,7 +100,7 @@ a:hover {
 	text-decoration: none;
 }
 a:visited {
-	color: #a80013;
+	color: rgb(43,101,78);
 	text-decoration: none;
 }
 a.navi {
@@ -109,7 +109,7 @@ a.navi {
 	padding: 0.5em;
 }
 a.navi:hover {
-	background-color: #880013;
+	background-color: rgb(43,101,78);
 }
 a.bottom {
 	color: white;
