@@ -118,14 +118,14 @@ section {
 /*
 .content-flex .text {
   flex: 1 1 500px;
-}
+}*/
 
 .content-flex .image {
   flex: 0 0 330px;
-}*/
+}
 
 .content-flex .image img {
-  max-width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
