@@ -96,6 +96,13 @@ footer {
   margin-top: 2rem;
 }
 
+.anchor-fix {
+  display: block;
+  height: var(--anchor-offset-height, 2rem); /* デフォルト2行分 */
+  margin-top: calc(-1 * var(--anchor-offset-height, 2rem));
+  visibility: hidden;
+}
+
 
 /* アンカー位置調整用 */
 section {
