@@ -100,3 +100,26 @@ footer {
 section {
   scroll-margin-top: 95px; /* ヘッダー＋ナビの高さに合わせる */
 }
+
+.content-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap; /* スマホ用 */
+}
+
+.content-flex .text {
+  flex: 1 1 300px;
+}
+
+.content-flex .image {
+  flex: 0 0 200px;
+}
+
+.content-flex .image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
