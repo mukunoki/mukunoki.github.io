@@ -1,0 +1,118 @@
+/* ベース */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* ヘッダー */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 1rem 0rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* 固定ナビゲーション */
+.top-nav {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-top: 12px solid #2c3e50;
+	border-bottom: 4px solid #ccc;
+  z-index: 100;
+}
+
+.top-nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0.3rem;
+  background: #ffffff;
+}
+
+.top-nav li {
+  margin: 0 0.3rem;
+}
+
+.top-nav a {
+	text-decoration: none;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #2c3e50;
+  padding: 0.5rem;
+  text-decoration: underline;
+}
+
+a:hover {
+	color:black;
+}
+
+/* 本文 */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main h2 {
+	border-bottom: 2px solid #2c3e50;
+	font-weight:bold;
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+}
+
+main h3 {
+	font-weight:bold;
+  margin-bottom: -0.5rem;
+  margin-top: 1rem;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* モバイル対応 */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .top-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-nav li {
+    margin: 0.3rem 0;
+  }
+}
+
+/* アンカー位置調整用 */
+section {
+  scroll-margin-top: 60px; /* ヘッダー＋ナビの高さに合わせる */
+}

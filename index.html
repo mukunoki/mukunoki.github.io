@@ -1,31 +1,70 @@
-<html lang="jp">
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>椋木 大地 / MUKUNOKI Daichi</title>
-<link rel="stylesheet" href="mukunoki_CV.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daichi Mukunoki</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="main">
-<div class="body">
-<div style="text-align:right;"><a href="index_en.html">[English]</a> 最終更新：2025年6月16日．</div>
 
-<h1>椋木 大地</h1>
-<img src="mukunoki_CV_photo.jpeg" width="150" align="right">
+  <header>
+    <h1>椋木 大地（Daichi Mukunoki）</h1>
+    <p>博士（工学），名古屋大学 情報基盤センター 助教</p>
+  </header>
+
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#news">最新情報</a></li>
+        <li><a href="#profile">プロフィール</a></li>
+      <li><a href="#experience">経歴</a></li>
+        <li><a href="#fund">研究資金</a></li>
+        <li><a href="#award">受賞</a></li>
+        <li><a href="#publications">研究業績</a></li>
+      <li><a href="#teaching">教育活動</a></li>
+      <li><a href="#project">プロジェクト</a></li>
+        <li><a href="#proact">学会活動</a></li>
+        <li><a href="#english">[English]</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="news">
+      <h2>最新情報</h2>
+      <h3>学会発表予定</h3>
+      <ul>
+        <li>椋木大地，LLMによるBLASコード生成に関する考察，<a href="https://atrg.jp/ja/index.php?ATOS33" target="_blank">第33回AT研究会オープンアカデミックセッション（ATOS33）</a>，2025年7月28日．</li>
+        <li>椋木大地，林俊一郎，星野哲也，片桐孝洋，BLASコードを題材としたGPTモデルによる数値計算コード実装支援に関する考察，<a href="https://www.ipsj.or.jp/kenkyukai/event/hpc200.html" target="_blank">第200回ハイパフォーマンスコンピューティング研究発表会（SWoPP2025）</a>，2025年8月4日．</li>
+        <li>林俊一郎，椋木大地，大島聡史，片桐孝洋，星野哲也，LLMCP・RAGを用いたプロシージャル3D生成LLMエージェント3Difyの提案とスパコンの利用，<a href="https://www.ipsj.or.jp/kenkyukai/event/hpc200.html" target="_blank">第200回ハイパフォーマンスコンピューティング研究発表会（SWoPP2025）</a>，2025年8月4日．</li>
+        <li>椋木大地，林俊一郎，AI向け低精度演算の動向と尾崎スキームによるFP64演算への適用可能性の検討，<a href="https://jsiam.org/jsiam_archive/past_meetings/annual2025/" target="_blank">日本応用数理学会 2025年度年会</a>，2025年9月2日〜4日．</li>
+        <li>湯淺義尚，小田昌宏，椋木大地，片桐孝洋，星野哲也，河合直聡，永井亨，森健策，GPU搭載スーパーコンピュータを用いたCOVID-19診断支援のための肺野セグメンテーションの高速化，<a href="https://jsiam.org/jsiam_archive/past_meetings/annual2025/" target="_blank">第44回 日本医用画像工学会大会（JAMIT 2025）</a>，2025年8月28日〜30日．</li>
+        <li>松崎竜之介，椋木大地，宮島敬明，Cerebras CS-2における疑似倍精度行列積，<a href="https://jsiam.org/jsiam_archive/past_meetings/annual2025/" target="_blank">日本応用数理学会 2025年度年会</a>，2025年9月2日〜4日．</li>
+        </ul>
+        </section>
+      
+    <section id="profile">
+      <h2>プロフィール</h2>
 <ul>
-<li>Contact: daichi.mukunoki _at_ gmail.com<br> (職場：mukunoki _at_ cc.nagoya-u.ac.jp，異動したら変わる可能性あり)</li>
-<li>Location: 名古屋大学 情報基盤センター5F 504</li>
-<li>ORCID: <a href="https://orcid.org/0000-0002-0051-6811" target="_blank">https://orcid.org/0000-0002-0051-6811</a></li>
-<li>researchmap: <a href="https://researchmap.jp/mukunoki" target="_blank">https://researchmap.jp/mukunoki</a>
+<li>連絡先：daichi.mukunoki _at_ gmail.com<br> (職場：mukunoki _at_ cc.nagoya-u.ac.jp，異動したら変わる可能性あり)</li>
+        <li>居室：<a href="https://icts.nagoya-u.ac.jp/ja/center/" target="_blank">名古屋大学 情報基盤センター</a> 5F 504</li>
+        <li>研究室：<a href="https://www.hpc.itc.nagoya-u.ac.jp" target="_blank">片桐・星野研究室</a></li>
+<li>研究領域：高性能計算（High performance computing，HPC），並列数値計算，GPUコンピューティング，算術演算，高精度演算，混合精度計算，再現可能な計算，性能最適化，自動チューニング，AI/LLMによるコード生成，など．</li>
+        <li>技術スキル：C/C++, CUDA, MPI, OpenMP, Python, LaTeX, HTML</li>
+<li>ORCID：<a href="https://orcid.org/0000-0002-0051-6811" target="_blank">https://orcid.org/0000-0002-0051-6811</a></li>
+<li>researchmap：<a href="https://researchmap.jp/mukunoki" target="_blank">https://researchmap.jp/mukunoki</a>
 </li>
-<li>ResearchGate: <a href="https://www.researchgate.net/profile/Daichi_Mukunoki" target="_blank">https://www.researchgate.net/profile/Daichi_Mukunoki</a></li>
-<li>Scopus: <a href="https://www.scopus.com/authid/detail.uri?authorId=55027398500" target="_blank">https://www.scopus.com/authid/detail.uri?authorId=55027398500</a></li>
-<li>Google Scholar: <a href="https://scholar.google.co.jp/citations?user=iarkitQAAAAJ" target="_blank">https://scholar.google.co.jp/citations?user=iarkitQAAAAJ</a></li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/daichi-mukunoki" target="_blank">https://www.linkedin.com/in/daichi-mukunoki</a></li>
+<li>ResearchGate：<a href="https://www.researchgate.net/profile/Daichi_Mukunoki" target="_blank">https://www.researchgate.net/profile/Daichi_Mukunoki</a></li>
+<li>Scopus：<a href="https://www.scopus.com/authid/detail.uri?authorId=55027398500" target="_blank">https://www.scopus.com/authid/detail.uri?authorId=55027398500</a></li>
+<li>Google Scholar：<a href="https://scholar.google.co.jp/citations?user=iarkitQAAAAJ" target="_blank">https://scholar.google.co.jp/citations?user=iarkitQAAAAJ</a></li>
+<li>LinkedIn：<a href="https://www.linkedin.com/in/daichi-mukunoki" target="_blank">https://www.linkedin.com/in/daichi-mukunoki</a></li>
 </ul>
+    </section>
 
-<h2>経歴</h2>
+    <section id="experience">
+      <h2>経歴</h2>
+      <h3>職歴</h3>
 <ul>
-<li>2025年4月1日 - 現在：名古屋大学, 情報基盤センター, 情報基盤デザイン開発部門，助教</li>
+<li>2025年4月1日 - 現在：<a href="https://icts.nagoya-u.ac.jp/ja/center/" target="_blank">名古屋大学，情報基盤センター</a>, 情報基盤デザイン開発部門，助教</li>
 <li>2024年12月1日 - 2025年3月31日：名古屋大学, 情報基盤センター, 特任助教</li>
 <li>2024年4月1日 - 2024年11月30日：芝浦工業大学, システム理工学部 数理科学科, 臨時技術職員</li>
 <li>2023年11月1日 - 2024年2月29日：株式会社 ソニー・インタラクティブエンタテインメント, 基盤システム・エクスペリエンス設計本部 G部門 2部 7課</li>
@@ -44,26 +83,17 @@
 <li>2013年12月1日 - 2014年5月31日：独立行政法人日本学術振興会, 特別研究員（PD） </li>
 <li>2013年4月1日 - 2013年11月30日：独立行政法人日本学術振興会, 特別研究員（DC2）</li>    
 </ul>
-
-<h2>学歴</h2>
-<ul>
+      <h3>学歴</h3>
+    <ul>
 <li>2011年4月1日 - 2013年11月30日：筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻 博士後期課程（博士（工学））</li>
 <li>2009年4月1日 - 2011年3月31日：筑波大学大学院 システム情報工学研究科 コンピュータサイエンス専攻 博士前期課程（修士（工学））</li>
 <li>2006年4月1日 - 2009年3月31日：筑波大学 図書館情報専門学群（学士（図書館情報学））</li>
 <li>2001年4月1日 - 2006年3月31日：岐阜工業高等専門学校 電子制御工学科（準学士（工学））</li>
 </ul>
+    </section>
 
-<h2>研究分野</h2>
-<ul>
-<li>High performance computing (HPC), parallel computing, GPGPU, computer arithmetic, extended-/reduced-precision, accurate computation, reproducible computation, performance optimization, auto-tuning</li>
-</ul>
-
-<h2>コンピュータスキル</h2>
-<ul>
-<li>C/C++, CUDA, MPI, OpenMP, Python, LaTeX, HTML</li>
-</ul>
-
-<h2>競争的資金</h2>
+<section id="fund">
+  <h2>研究資金獲得状況</h2>
 <ul>
 <li>2022年4月 - 2023年10月：日本学術振興会 科学研究費助成事業 国際共同研究加速基金（国際共同研究強化(A)）, 20KK0259，<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20KK0259/" target="_blank">「次世代計算機のための高精度かつ精度検証可能な行列計算法の開発」</a>, 9,230,000 円, 代表者.</li>
 <li>2020年4月 - 2021年3月：学際大規模情報基盤共同利用・共同研究拠点公募型共同研究 (JHPCN), 公募型共同研究, jh220022, <a href="https://jhpcn-kyoten.itc.u-tokyo.ac.jp/abstract/jh220022" target="_blank">「高性能かつ高信頼な数値計 算手法とその応用」</a>, 共同研究者（代表:荻田武史）.</li>
@@ -74,7 +104,9 @@
 <li>2015年4月 - 2018年3月：日本学術振興会 科学研究費助成事業 基盤研究(B), 15H02709, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-15H02709/" target="_blank">「O(1億)コア環境におけるスケーラブルな数値計算ソフトウェアの理論と応用」</a>, 18,330,000 円, 分担者（代表者：今村俊幸）.</li>
 <li>2013年4月 - 2015年3月：日本学術振興会 科学研究費助成事業 特別研究員奨励費, 13J01290, <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-13J01290" target="_blank">「GPUスパコンのための3倍・4倍精度線形演算ライブラリの開発に関する研究」</a>, 2,070,000 円, 代表者.</li>
 </ul>
+    </section>
 
+    <section id="award">
 <h2>受賞</h2>
 <ul>
 <li>Best Paper Award（Daichi Mukunoki, Masatoshi Kawai, Toshiyuki Imamura, Sparse Matrix-Vector Multiplication with Reduced-Precision Memory Accessor, Proc. 2023 IEEE 16th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-2023), pp. 608-615, 2023において）．</li>
@@ -87,16 +119,19 @@
 <li>情報処理学会 2013年度コンピュータサイエンス領域奨励賞（椋木 大地, 高橋 大介, GPUにおける高速なCRS形式疎行列ベクトル積の実装, 情報処理学会研究報告: ハイパフォーマンスコンピューティング, Vol. 2013-HPC-138, No. 5, pp. 1-7, 2013年2月において）．</li>
 <li>情報処理学会計算機アーキテクチャ研究会 2012年度若手奨励賞（椋木 大地, 高橋 大介, GPUにおける4倍精度演算を用いた疎行列反復解法の実装と評価, 情報処理学会研究報告: ハイパフォーマンスコンピューティング, Vol. 2012-HPC-137 (2012-ARC-202), No. 37, pp. 1-8, 2012年12月において）．</li>
 </ul>
+    </section>
 
-<h2>論文誌</h2>
+    <section id="publications">
+      <h2>研究業績</h2>
+<h3>論文誌</h3>
 <ul>
 <li>Katsuhisa Ozaki, Daichi Mukunoki, Takeshi Ogita, <a href="https://link.springer.com/article/10.1007/s13160-024-00677-z" target="_blank">Extension of accurate numerical algorithms for matrix multiplication based on error-free transformation</a>, Japan Journal of Industrial and Applied Mathematics, Vol. 42, pp. 1-20, Oct. 29, 2024.</li>
 <li>Kensuke Aihara, Katsuhisa Ozaki, Daichi Mukunoki, <a href="https://doi.org/10.1007/s13160-024-00644-8" target="_blank">Mixed-precision conjugate gradient algorithm using the groupwise update strategy</a>, Japan Journal of Industrial and Applied Mathematics, Volume 41, pp. 837-855, Feb. 6, 2024.</li>
 <li>Daichi Mukunoki, Takeshi Ogita, <a href="https://doi.org/10.1016/j.cam.2019.112701" target="_blank">Performance and Energy Consumption of Accurate and Mixed-precision Linear Algebra Kernels on GPUs</a>, Journal of Computational and Applied Mathematics, Vol. 372, p. 112701, Jul., 2020.</li>
 <li>椋木大地, 高橋大介, <a href="http://id.nii.ac.jp/1001/00089921/" target="_blank">GPUにおける3倍・4倍精度浮動小数点演算の実現と性能評価</a>, 情報処理学会論文誌 コンピューティングシステム, Vol. 6, No. 1, pp. 66-77, 2013年1月31日 (in Japanese).</li>
 </ul>
-    
-<h2>査読付き国際会議論文</h2>
+      
+<h3>査読付き国際会議論文</h3>
 <ul>
 <li>Xuanzhengbo Ren, Yuta Kawai, Hirofumi Tomita, Seiya Nishizawa, Takahiro Katagiri, Tetsuya Hoshino, Masatoshi Kawai, Daichi Mukunoki, Nagai Toru, <a href="https://doi.org/10.1145/3703001.3724385" target="_blank">Performance Evaluation of Loop Body Splitting for Fast Modal Filtering in SCALE-DG on A64FX</a>, HPC Asia '25 Workshops: Proc. 2025 International Conference on High Performance Computing in Asia-Pacific Region Workshops, pp. 36-44, 2025.</li>
 <li>Ryunosuke Matsuzaki, Daichi Mukunoki, Takaaki Miyajima, <a href="https://www.computer.org/csdl/proceedings-article/sc-workshops/2024/555400a727/23l2MPsdkfm" target="_blank">Performance evaluation and modelling of single-precision matrix multiplication on Cerebras CS-2</a>, Proc. SC24-W: Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis, 14th Workshop on Irregular Applications: Architectures and Algorithms, pp. 727-731, 2024.</li>
@@ -126,7 +161,7 @@
 <li>椋木大地, 高橋大介, <a href="http://id.nii.ac.jp/1001/00071791/" target="_blank">GPUによる4倍・8倍精度BLASの実装と評価</a>, 2011年ハイパフォーマンスコンピューティングと計算科学シンポジウムHPCS2011論文集, pp. 148-156, 2011年1月 (in Japanese).</li>
 </ul>
 
-<h2>研究報告等（査読なし）</h2>
+    <h3>研究報告等（査読なし）</h3>
 <ul>
 <li>羽生達郎, 片桐孝洋, 森下誠, 高橋一郎，河合直聡, 椋木大地, 星野哲也, 永井亨, <a href="https://pub.confit.atlas.jp/ja/event/jsces30/presentation/E-01-03" target="_blank">コヒーレントイジングマシンにおけるパラメタチューニングへのATの適用</a>, 計算工学講演会論文集, Vol. 30, No. E-01-03, 2025年6月 (in Japanese).</li>
 <li>中谷崇真, 河合直聡, 片桐孝洋, 星野哲也, 永井亨, 椋木大地, <a href="https://ipsj.ixsq.nii.ac.jp/records/2001766" target="_blank">疎行列反復解法の深層学習を用いた実行時間予測モデル構築と評価</a>, 情報処理学会研究報告: ハイパフォーマンスコンピューティング, Vol. 2025-HPC-199, No. 3, pp. 1-8, 2025年5月 (in Japanese).</li>
@@ -163,9 +198,9 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>椋木大地, 高橋大介, GPUによる4倍精度BLASの実装と評価, 計算工学講演会論文集, Vol. 15, No. 2, pp. 891-894, 2010年5月 (in Japanese).</li>
 <li>椋木大地, 高橋大介, <a href="http://id.nii.ac.jp/1001/00066883/" target="_blank">GPUによる4倍精度BLASの実装と評価</a>, 情報処理学会研究報告: ハイパフォーマンスコンピューティング, Vol. 2009-HPC-123 (2009-ARC-186), No. 13, pp. 1-6, 2009年11月 (in Japanese).
 </li>
-</ul>
-
-<h2>査読付きポスター発表</h2>
+</ul>  
+      
+      <h3>査読付きポスター発表</h3>
 <ul>
 <li>Atsushi Suzuki, Daichi Mukunoki, Toshiyuki Imamura, <a href="https://app.swapcard.com/event/isc-high-performance-2023/planning/UGxhbm5pbmdfMTIyMDg4OQ==" target="_blank">tmBLAS: a Mixed Precision BLAS by C++ Template</a>, ISC High Performance (ISC 2023), research poster session, May, 2023.</li>
 <li>Daichi Mukunoki, Katsuhisa Ozaki, Takeshi Ogita, Toshiyuki Imamura, <a href="https://app.swapcard.com/event/isc-high-performance-2022/planning/UGxhbm5pbmdfODYxMjM3" target="_blank">A Fast Infinite Precision Inner Product using Ozaki Scheme and Dot2, and Its Application to Reproducible Conjugate Gradient Solvers</a>, ISC High Performance (ISC 2022), research poster session, Jun. 1, 2022.</li>
@@ -176,7 +211,7 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>Daichi Mukunoki, Toshiyuki Imamura, Implementation and Evaluation of 2.5D Matrix Multiplication on K Computer, ISC High Performance (ISC 2017), research poster session, Jun. 20, 2017.</li>
 </ul>
 
-<h2>ポスター発表（査読なし）</h2>
+      <h3>ポスター発表（査読なし）</h3>
 <ul>
 <li>Daichi Mukunoki, Atsushi Suzuki, Toshiyuki Imamura, Multiple and Mixed Precision BLAS with C++ Template, 5th R-CCS International Symposium, Feb. 6, 2023.</li>
 <li>Daichi Mukunoki, Katsuhisa Ozaki, Takeshi Ogita, Toshiyuki Imamura, Accurate Matrix Computations using Ozaki Scheme on CPUs and GPUs, The 30th Anniversary Symposium of the Center for Computational Sciences at the University of Tsukuba, Oct. 14, 2022.</li>
@@ -207,7 +242,7 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>Daichi Mukunoki, Daisuke Takahashi, Performance Comparison of Double, Triple and Quadruple Precision Real and Complex BLAS Subroutines on GPUs, Proc. ATIP/A*CRC Workshop on Accelerator Technologies for High-Performance Computing: Does Asia Lead the Way? (ATIP/A*CRC Workshop '12), pp. 788-790, May. 7, 2012 (extended abstract in conference proceedings).</li>
 </ul>
 
-<h2>口頭発表</h2>
+<h3>口頭発表</h3>
 <ul>
 <li>Daichi Mukunoki, Masatoshi Kawai, Toshiyuki Imamura, Reduced-Precision Data Representation on Sparse Matrix-Vector Multiplications, 10th International Congress on Industrial and Applied Mathematics (ICIAM 2023), Aug. 21, 2023.</li>
 <li>Toshiyuki Imamura, Daichi Mukunoki, Atsushi Suzuki, Multiple- and Mixed-Precision BLAS with C++ Template, 10th International Congress on Industrial and Applied Mathematics (ICIAM 2023), Aug. 24, 2023.</li>
@@ -246,8 +281,20 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>Daichi Mukunoki, Daisuke Takahashi, Iterative Method for Sparse Linear Systems using Quadruple Precision Operations on GPUs, SIAM Conference on Computational Science and Engineering (CSE13), The Westin Boston Waterfront, Boston, Massachusetts, Feb. 28, 2013. </li>
 <li>椋木大地, 高橋大介, GPUによる4倍精度行列計算, 2011年並列／分散／協調処理に関する『鹿児島』サマー・ワークショップ（SWoPP鹿児島2011） , かごしま県民交流センター, 鹿児島市, 2011年7月27日 (in Japanese). </li>
 </ul>
+    </section>
 
-<h2>ソフトウェア</h2>
+    <section id="teaching">
+      <h2>教育活動</h2>
+<ul>
+<li>2025年4月 - 2025年5月：数値解析及び演習, 名古屋大学 情報学部 コンピュータ科学科.</li>
+<li>2025年4月 - 2025年5月：コンピュータ科学実験a, 名古屋大学 情報学部 コンピュータ科学科.</li>
+<li>2018年9月 - 2019年1月：情報処理技法（リテラシ）II, 東京女子大学.</li>
+</ul>
+    </section>
+
+    <section id="project">
+    <h2>プロジェクト</h2>
+      <p>以下にプロジェクト成果物のソフトウェアを載せる．</p>
 <ul>
 <li>OzBLAS: Accurate and Reproducible BLAS based on Ozaki scheme, <a href="https://github.com/mukunoki/ozblas" target="_blank">https://github.com/mukunoki/ozblas</a></li>
 <li>MUBLAS (as a demonstration of automatic thread-block size determination on CUDA kernels), <a href="https://www.r-ccs.riken.jp/labs/lpnctrt/en/projects/mublas/" target="_blank">https://www.r-ccs.riken.jp/labs/lpnctrt/en/projects/mublas/</a></li>
@@ -258,15 +305,11 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>RpFp (reduced precision memory accessor), <a href="https://github.com/mukunoki/rpfp" target="_blank">https://www.r-ccs.riken.jp/labs/lpnctrt/projects/rpfp/</a></li>
 <li>etc.</li>
 </ul>
-    
-<h2>講義</h2>
-<ul>
-<li>2025年4月 - 2025年5月：数値解析及び演習, 名古屋大学 情報学部 コンピュータ科学科.</li>
-<li>2025年4月 - 2025年5月：コンピュータ科学実験a, 名古屋大学 情報学部 コンピュータ科学科.</li>
-<li>2018年9月 - 2019年1月：情報処理技法（リテラシ）II, 東京女子大学.</li>
-</ul>
-    
-<h2>委員歴</h2>
+        </section>
+
+  
+    <section id="proact">
+<h2>学会活動</h2>
 <ul>
 <li>Poster Chair, <a href="https://www.sca-hpcasia2026.jp/" target="_blank">The International Conference on High Performance Computing in Asia-Pacific Region 2026</a>, 2026.</li>
 <li>副代表者, 2025年度RIMS共同研究 (公開型), <a href="https://www.hpc.itc.nagoya-u.ac.jp/rims2025/" target="_blank">「数値解析が切り開く新たな情報社会〜データ駆動型から「富岳NEXT」〜」</a>, 京都大学数理解析研究所, 2025.</li>
@@ -305,10 +348,13 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>Program Committee Member, <a href="http://www.ieee-tcsc.org/2015/pdsec/" target="_blank">The 16th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2015)</a> (in conjunction with IPDPS 2015), 2015.</li>
 <li>Program Committee Member, <a href="http://www.ieee-tcsc.org/2014/pdsec/" target="_blank">The 15th IEEE International Workshop on Parallel and Distributed Scientific and Engineering Computing (PDSEC 2014)</a> (in conjunction with IPDPS 2014), 2014.</li>
 </ul>
+    </section>
+  </main>
 
-<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
-<br>
-</div>
-</div>
+  <footer>
+    <p>&copy; 2025 Daichi Mukunoki</p>
+  </footer>
+
 </body>
 </html>
+
