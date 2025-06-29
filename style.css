@@ -29,14 +29,6 @@ font-size: 0.8rem;
   color: white;
 }
 
-header div {
-	  margin: 0;
-	  padding: 0;
-	  max-width: 900px;
-  margin: 2rem auto;
-	  text-align: left;
-}
-
 /* 固定ナビゲーション */
 .top-nav {
   position: sticky;
