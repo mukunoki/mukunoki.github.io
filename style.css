@@ -103,7 +103,7 @@ footer {
 
 /* アンカー位置調整用 */
 section {
-  scroll-margin-top: 150px; /* ヘッダー＋ナビの高さに合わせる */
+  scroll-margin-top: 180px; /* ヘッダー＋ナビの高さに合わせる */
 }
 
 @media (max-width: 600px) {
