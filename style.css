@@ -107,14 +107,14 @@ section {
   gap: 2rem;
   flex-wrap: wrap; /* スマホ用 */
 }
-
+/*
 .content-flex .text {
   flex: 1 1 500px;
 }
 
 .content-flex .image {
   flex: 0 0 330px;
-}
+}*/
 
 .content-flex .image img {
   max-width: 100%;
