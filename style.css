@@ -96,21 +96,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* モバイル対応 */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  .top-nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .top-nav li {
-    margin: 0.3rem 0;
-  }
-}
 
 /* アンカー位置調整用 */
 section {
