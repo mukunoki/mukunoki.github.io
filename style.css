@@ -102,6 +102,9 @@ section {
 }
 
 @media (max-width: 600px) {
+	.top-nav h1{
+		font-size: 0.5rem;
+	}
   .top-nav a {
     font-size: 1.5rem; /* スマホ用に大きめ */
   }
