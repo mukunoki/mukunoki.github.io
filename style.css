@@ -24,11 +24,13 @@ padding: -5px, 0 -15px;
 
 header p {
 	padding: -10px 0;
-font-size: 1rem;
+font-size: 0.8rem;
   color: white;
 }
 
 header div {
+	  max-width: 900px;
+  margin: 2rem auto;
 	  text-align: left;
 }
 
