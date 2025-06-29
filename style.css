@@ -69,7 +69,11 @@ a:hover {
 
 /* 本文 */
 main {
-  max-width: 900px;
+	width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
+/*  max-width: 900px;*/
   margin: 2rem auto;
   padding: 0 1rem;
 }
@@ -98,6 +102,10 @@ footer {
 
 /* アンカー位置調整用 */
 section {
+	width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  box-sizing: border-box;
   scroll-margin-top: 95px; /* ヘッダー＋ナビの高さに合わせる */
 }
 
