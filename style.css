@@ -121,6 +121,12 @@ section {
 }
 
 @media (max-width: 800px) {
+	main {
+		font-size: 0.8rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
 	header h1{
 	margin: 0;
     margin-left: 10px;
