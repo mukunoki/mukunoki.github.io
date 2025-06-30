@@ -78,7 +78,6 @@ header a:hover {
 a {
     text-decoration: none;
     color: #2c3e50;
-
     text-decoration: underline;
 }
 
@@ -143,10 +142,9 @@ section {
   	header ul {
     font-size: 1rem;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0 0.1rem;
+    margin: 0;
 	}
 	header li {
 	margin 0;
