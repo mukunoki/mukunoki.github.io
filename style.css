@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", sans-serif;
-  line-height: 1.6;
+  line-height: 1.5;
   background: #f9f9f9;
   color: #333;
   scroll-behavior: smooth;
@@ -10,74 +10,76 @@ body {
 
 /* ヘッダー */
 header {
-  background: #2c3e50;
-  color: white;
-  padding: 0;
-  text-align: center;
+    max-width: 100%;
+    background: #2c3e50;
+	color: white;
+	margin: 0 auto;
+    padding: 0;
+	text-align: center;
+    position: sticky;
+    top: 0;
+	z-index: 100;
 }
 
 header h1 {
 	margin: 0;
-  margin-left: 10px;
+    margin-left: 10px;
 	padding: 0;
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 header p {
 	margin: 0;
-  margin-left: 10px;
-	  padding: 0;
-font-size: 1.2rem;
-  color: white;
+	margin-left: 10px;
+	padding: 0;
+	font-size: 1.2rem;
+	color: white;
 }
 
 header div {
-  text-align: left;	
-  max-width: 900px;
-  margin: 0 auto 10px;
-  padding: 0;
+    text-align: left;
+    max-width: 900px;
+    margin: auto;
 }
 
 /* 固定ナビゲーション */
 .top-nav {
-  position: sticky;
-  top: 0;
-  border-top: 12px solid #2c3e50;
-	border-bottom: 3px solid #ccc;
-  z-index: 100;
-}
-
-.top-nav ul {
-font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0.3rem;
-}
-
-.top-nav li {
-  margin: 0 0.3rem;
-}
-
-.top-nav a {
-	text-decoration: none;
-  font-weight: bold;
-}
-
-nav {
-	max-width: 100%;
-	margin: 0;
-	padding: 0;
+    max-width: 100%;
+	margin: 0rem auto;
+	margin-top:1rem;
 	background: white;
+    border-bottom: 3px solid #ccc;
+}
+
+header ul {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 0.3rem;
+}
+
+header a {
+	padding:0.2rem 0.2rem;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+header li {
+	margin 0.2rem 0;
+	padding:0 0.5rem;	
+}
+header a:hover {
+	color: white;
+	background: #2c3e50;
 }
 
 a {
-  text-decoration: none;
-  color: #2c3e50;
-  padding: 0.5rem;
-  text-decoration: underline;
+    text-decoration: none;
+    color: #2c3e50;
+
+    text-decoration: underline;
 }
 
 a:hover {
@@ -95,7 +97,7 @@ main h2 {
 	border-bottom: 2px solid #2c3e50;
 	font-weight:bold;
   padding-bottom: 0.3rem;
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 
 main h3 {
@@ -115,14 +117,20 @@ footer {
 
 /* アンカー位置調整用 */
 section {
-  scroll-margin-top: 200px; /* ヘッダー＋ナビの高さに合わせる */
+  scroll-margin-top: 200px; 
 }
 
-@media (max-width: 600px) {
-	.top-nav h1{
+@media (max-width: 800px) {
+	header h1{
 		font-size: 2rem;
 	}
-  .top-nav ul {
-    font-size: 2rem; /* スマホ用に大きめ */
-  }
+	header p{
+		font-size: 1rem;
+	}
+  	header ul {
+    font-size: 1.4rem; 
+	}
+	section {
+  scroll-margin-top: 200px; 
+}
 }
