@@ -135,14 +135,14 @@ section {
 	color: white;
 	}
   	header ul {
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0 0.3rem;
+    margin: 0 0.2rem;
 	}
 	section {
-  scroll-margin-top: 200px; 
+  scroll-margin-top: 300px; 
 }
 }
