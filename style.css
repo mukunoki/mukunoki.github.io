@@ -91,7 +91,7 @@ a:hover {
 /* 本文 */
 main {
   max-width: 900px;
-  margin: 2rem auto;
+  margin: 0rem auto;
   padding: 0 1rem;
 }
 
@@ -150,21 +150,17 @@ section {
 	main {
 		font-size: 0.8rem;
   max-width: 900px;
-  margin: 2rem auto;
+  margin: 0rem auto;
   padding: 0 1rem;
 	}
-	.title {
-    padding: 0 0;
-	}
-	header {
-		margin-top: 0.5rem;
-	}
+
 	header h1{
 		margin: 0;
     margin-top: 10px;
     margin-left: 10px;
 	padding: 0;
-    font-size: 1.5rem;
+		font-size: 1.5rem;
+				background: blue;
 	}
 	header p{
 	margin: 0;
