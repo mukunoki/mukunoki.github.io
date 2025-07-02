@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: "Helvetica Neue", sans-serif;
   line-height: 1.5;
-  background: #f5f5f5;
+  background: #f0f0f0;
   color: #333;
   scroll-behavior: smooth;
 }
@@ -19,7 +19,7 @@ header {
 header div {
 	text-align: left;
 	max-width: 900px;
-	margin: 0 auto;
+	margin: 1rem auto;
 }
 
 header h1 {
@@ -92,20 +92,18 @@ a:hover {
 	background:#dddddd;
 }
 
-/* 本文 */
 main {
   max-width: 900px;
   margin: 0rem auto;
   padding: 0 1rem;
 }
 
+
 main h2 {
 	border-bottom: 2px solid #2c3e50;
 	font-weight:bold;
 	margin-left:10px;
-	margin-top: 1.2rem;
-	margin-bottom:-0.5rem;
-
+	margin-top: 2rem;
 }
 
 main h3 {
@@ -127,7 +125,12 @@ main p {
 	font-weight:bold;
 }
 
-.float-image {
+img{
+	margin-top: 25px;
+	width:100%;
+}
+
+.float-img {
   float: right;
   width: 300px;
 	margin-top: 30px;
@@ -177,9 +180,13 @@ section {
     list-style: none;
 	}
 	nav a {
-		padding: 0.2rem 0.4rem;
+	padding: 0.2rem 0.4rem;
     text-decoration: none;
-	font-weight: bold;
+		font-weight: bold;
+	}
+	main h2 {
+			font-size: 1.2rem;
+	}
 }
 	.float-image {
   float: right;
