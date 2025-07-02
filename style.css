@@ -153,56 +153,9 @@ section {
   scroll-margin-top: 80px; 
 }
 
-@media (max-width: 900px) {
-	main {
-		font-size: 0.8rem;
-		margin-left: 0;
-		padding-left: 0;	
-	}
-	header div{
-	margin: 0rem;
-	}
-	img{
-		margin: 0;
-		width:100%;
-	}
-	header h1{
-    margin-left: 10px;
-		font-size: 1.5rem;
-	}
-	header p{
-	margin-left: 10px;
-	font-size: 0.8rem;
-	color: white;
-	}
-  	nav ul {
-    font-size: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-	}
-	nav a {
-	padding: 0.2rem 0.4rem;
-    text-decoration: none;
-		font-weight: bold;
-	}
-	main h2 {
-			font-size: 1.2rem;
-	}
-	main ul {
-		margin-left:-10px;
-	}
-	main li {
-		margin-left:0px;
-	}
-	.float-image {
-  float: right;
-		width: 150px;
-	}
-}
 
 .slideBox {
-  height: 500px;
+ aspect-ratio: 16/9;
   overflow: hidden;
 	position: relative;
 	margin-bottom:1rem;
@@ -216,28 +169,28 @@ section {
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-animation: anime 35s 0s infinite;
-  animation: anime 35s 0s infinite;
+  -webkit-animation: anime 30s 0s infinite;
+  animation: anime 30s 0s infinite;
 }
 
 .top_pic:nth-of-type(2) {
-  -webkit-animation-delay: 7s;
-  animation-delay: 7s;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
 }
 
 .top_pic:nth-of-type(3) {
-  -webkit-animation-delay: 14s;
-  animation-delay: 14s;
+  -webkit-animation-delay: 12s;
+  animation-delay: 12s;
 }
 
 .top_pic:nth-of-type(4) {
-  -webkit-animation-delay: 21s;
-  animation-delay: 21s;
+  -webkit-animation-delay: 18s;
+  animation-delay: 18s;
 }
 
 .top_pic:nth-of-type(5) {
-  -webkit-animation-delay: 28s;
-  animation-delay: 28s;
+  -webkit-animation-delay: 24s;
+  animation-delay: 24s;
 }
 
 @keyframes anime {
@@ -276,4 +229,59 @@ section {
   100% {
     opacity: 0;
   }
+}
+
+
+@media (max-width: 900px) {
+	main {
+		font-size: 0.8rem;
+		margin-left: 0;
+		padding-left: 0;	
+	}
+	header div{
+	margin: 0rem;
+	}
+	section img{
+		margin: 0;
+		padding: 0;
+		width:100%;
+	}
+	.slidebox{
+		margin: 0;
+		padding: 0;
+		width:100%;
+	}
+	header h1{
+    margin-left: 10px;
+		font-size: 1.5rem;
+	}
+	header p{
+	margin-left: 10px;
+	font-size: 0.8rem;
+	color: white;
+	}
+  	nav ul {
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+	}
+	nav a {
+	padding: 0.2rem 0.4rem;
+    text-decoration: none;
+		font-weight: bold;
+	}
+	main h2 {
+			font-size: 1.2rem;
+	}
+	main ul {
+		margin-left:-10px;
+	}
+	main li {
+		margin-left:0px;
+	}
+	.float-image {
+  float: right;
+		width: 150px;
+	}
 }
