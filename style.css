@@ -269,18 +269,18 @@ section {
 	main h2 {
 			font-size: 1.2rem;
 	}
-	main ul {
-		font-size: 0.5rem;
+	section ul {
+		font-size: 0.8rem;
 		margin-left:-10px;
 	}
-	main li {
-		font-size: 0.5rem;
+	section li {
+		font-size: 0.8rem;
 		margin-left:0px;
 	}
 	main p{
 		font-size: 0.8rem;	
 	}
-.float-img {
-  width: 30%;
-}
+	.float-img {
+		width: 40%;
+	}
 }
