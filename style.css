@@ -164,7 +164,10 @@ section {
 	header div{
 	margin: 0rem;
 	}
-
+	img{
+		margin: 0;
+		width:100%;
+	}
 	header h1{
     margin-left: 10px;
 		font-size: 1.5rem;
