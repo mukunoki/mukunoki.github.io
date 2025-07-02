@@ -82,7 +82,7 @@ nav a:hover {
 a {
     text-decoration: none;
     color: #000000;
-    text-decoration: underline;
+	text-decoration: underline;
 	word-break: break-all;
 }
 
@@ -136,10 +136,8 @@ img{
 
 .float-img {
   float: right;
-  width: 300px;
+  width: 200px;
   margin:1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.1);
 }
 
 footer {
@@ -242,11 +240,7 @@ section {
 	header div{
 	margin: 0rem;
 	}
-	section img{
-		margin: 0;
-		padding: 0;
-		width:100%;
-	}
+
 	.slidebox{
 		margin: 0;
 		padding: 0;
@@ -276,13 +270,17 @@ section {
 			font-size: 1.2rem;
 	}
 	main ul {
+		font-size: 0.8rem;
 		margin-left:-10px;
 	}
 	main li {
+		font-size: 0.8rem;
 		margin-left:0px;
 	}
-	.float-image {
-  float: right;
-		width: 150px;
+	main p{
+		font-size: 0.8rem;	
 	}
+.float-img {
+  width: 30%;
+}
 }
