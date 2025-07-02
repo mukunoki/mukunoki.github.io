@@ -189,6 +189,12 @@ section {
 	main h2 {
 			font-size: 1.2rem;
 	}
+	main ul {
+		margin-left:-10px;
+	}
+	main li {
+		margin-left:0px;
+	}
 	.float-image {
   float: right;
 		width: 150px;
