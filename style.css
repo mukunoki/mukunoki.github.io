@@ -19,6 +19,10 @@ header {
 	padding: 0.6rem 0;
 }
 
+header br{
+	display:none;
+}
+
 header div {
 	text-align: left;
 	max-width: 900px;
@@ -185,7 +189,7 @@ footer {
 }
 
 section {
-  scroll-margin-top: 80px; 
+  scroll-margin-top: 100px; 
 }
 
 
@@ -280,7 +284,9 @@ section {
 	header div{
 	margin: 0rem;
 	}
-
+	header br{
+		display:inline;
+	}
 	.slidebox{
 		margin: 0;
 		padding: 0;
