@@ -58,7 +58,7 @@
     </div>
 
     <section>
-      <p><a href="https://icts.nagoya-u.ac.jp/ja/center/" target="_blank">名古屋大学 情報基盤センター</a>において高性能計算（HPC），スーパーコンピューターにおける大規模並列計算，AI用プロセッサの低精度演算器の科学技術計算における活用に向けた研究，数値計算における混合精度計算，AI技術を活用した高性能計算・数値計算コードの生成技術などの研究開発を行っています．このほか<a href="https://www.hpc.itc.nagoya-u.ac.jp" target="_blank">所属研究室</a>の学生さんらとともに自動チューニング，アプリケーションのGPU対応化などのさまざまな研究を行っています．</p>
+      <p><a href="https://icts.nagoya-u.ac.jp/ja/center/" target="_blank">名古屋大学 情報基盤センター</a>において高性能計算（HPC），GPUコンピューティング，スーパーコンピューターにおける大規模並列計算，AI用プロセッサの低精度演算器の科学技術計算における活用に向けた研究，数値計算における混合精度計算，AI技術を活用した高性能計算・数値計算コードの生成技術などの研究開発を行っています．このほか<a href="https://www.hpc.itc.nagoya-u.ac.jp" target="_blank">所属研究室</a>の学生とともに自動チューニング，アプリケーションのGPU対応化などのさまざまな研究を行っています．</p>
     </section>
       <section id="news">
       <h2>News / 最新情報（2025年8月19日更新）</h2>
@@ -154,6 +154,10 @@
       <h2>Research / 研究</h2>
       <h3>大規模言語モデル（LLM）を用いたHPCコード・数値計算コードの自動生成</h3>
       <p>LLMの性能が著しく向上し，ChatGPTに代表される対話型エージェントだけでなく，プログラムコードの実装支援・自動生成技術が実用化されつつある．しかし専門性の高いコードの生成にはまだ多くの課題がある．特にHPCで用いる数値計算コードは高度な性能最適化が求められるため難易度が高く，現状では高度な知識を持った専門家の技術を必要としている．複数LLMの連携，プロンプトの反復的な改良，RAGの活用などの工夫により，HPC・数値計算コードに特化したLLM支援コード生成方式の開発を行っている．</p>
+        <div class="res_pub">
+      <h4>主要な論文</h4>     
+              <ul><li>Daichi Mukunoki, Shun-ichiro Hayashi, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">Performance Evaluation of General Purpose Large Language Models for Basic Linear Algebra Subprograms Code Generation</a>, arXiv preprint arXiv:2507.04697, 2025.</li></ul>
+      </div>    
       
       <h3>低精度演算を利用した高精度演算の実現</h3>
       <p>通常の科学技術計算には64-bit浮動小数点演算（FP64，いわゆる倍精度）が用いられる．しかしそれよりも低精度な演算，例えば32-bit単精度演算（FP32），16-bit半精度演算（FP16，BF16）が高速なプロセッサが存在する．例えばグラフィクス処理に特化したGPUや，AI処理に特化したプロセッサがその一例である．FP64演算を全くサポートしないプロセッサも存在する．このようなプロセッサでFP64演算を可能にする方法として，複数の浮動小数点数を連結して多数桁を表現する多倍長精度演算法や，行列積に対する無誤差計算法である尾崎スキームが知られている．これらの手法を応用することにより低精度演算を用いて高精度演算を高速に実行する方法・実装を開発している．</p>
@@ -392,15 +396,15 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <section id="funding">
   <h2>Funding / 研究資金獲得状況</h2>
 <ul>
-<li>2025年9月 - 2027年3月：日本学術振興会 科学研究費助成事業 研究活動スタート支援, 25K24387，「AIスーパーコンピュータにおける科学技術計算加速のための高精度演算技術応用」</a>, 2,730,000 円, 代表者（交付内定）.</li>
-<li>2022年4月 - 2023年10月：日本学術振興会 科学研究費助成事業 国際共同研究加速基金（国際共同研究強化(A)）, 20KK0259，<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20KK0259/" target="_blank">「次世代計算機のための高精度かつ精度検証可能な行列計算法の開発」</a>, 9,230,000 円, 代表者.</li>
+      <li>2025年9月 - 2027年3月：日本学術振興会 科学研究費助成事業 研究活動スタート支援, 25K24387，「AIスーパーコンピュータにおける科学技術計算加速のための高精度演算技術応用」</a>, 2,730,000 円, <b>代表者</b>（交付内定）.</li>
+      <li>2022年4月 - 2023年10月：日本学術振興会 科学研究費助成事業 国際共同研究加速基金（国際共同研究強化(A)）, 20KK0259，<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-20KK0259/" target="_blank">「次世代計算機のための高精度かつ精度検証可能な行列計算法の開発」</a>, 9,230,000 円, <b>代表者</b>.</li>
 <li>2020年4月 - 2021年3月：学際大規模情報基盤共同利用・共同研究拠点公募型共同研究 (JHPCN), 公募型共同研究, jh220022, <a href="https://jhpcn-kyoten.itc.u-tokyo.ac.jp/abstract/jh220022" target="_blank">「高性能かつ高信頼な数値計 算手法とその応用」</a>, 共同研究者（代表:荻田武史）.</li>
-<li>2019年4月 - 2022年3月：日本学術振興会 科学研究費助成事業 若手研究, 19K20286, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-19K20286/" target="_blank">「超並列計算環境のための高精度かつ再現性のある行列計算ライブラリの開発」</a>, 2,340,000 円, 代表者.</li>
+      <li>2019年4月 - 2022年3月：日本学術振興会 科学研究費助成事業 若手研究, 19K20286, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-19K20286/" target="_blank">「超並列計算環境のための高精度かつ再現性のある行列計算ライブラリの開発」</a>, 2,340,000 円, <b>代表者</b>.</li>
 <li>2019年4月 - 2022年3月：日本学術振興会 科学研究費助成事業 基盤研究(B), 19H04127, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-19H04127/" target="_blank">「エクサ時代の非同期タスクを応用した高性能高次元数値線形代数の研究」</a>, 17,420,000 円, 分担者（代表者：今村俊幸）.</li>
 <li>2018年4月 - 2019年3月：学際大規模情報基盤共同利用・共同研究拠点公募型共同研究 (JHPCN), 萌芽型共同研究, EX18104,<a href="https://jhpcn-kyoten.itc.u-tokyo.ac.jp/abstract/EX18104" target="_blank"> 「高性能かつ高信頼な数値計 算手法とその応用」</a>, 共同研究者（代表者：深谷猛）.</li>
-<li>2016年4月 - 2019年3月：日本学術振興会 科学研究費助成事業 若手研究(B), 16K16062, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-16K16062/" target="_blank">「高性能・省電力な計算のための短尺浮動小数点表現の検討」</a>, 2,210,000 円, 代表者. </li>
+      <li>2016年4月 - 2019年3月：日本学術振興会 科学研究費助成事業 若手研究(B), 16K16062, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-16K16062/" target="_blank">「高性能・省電力な計算のための短尺浮動小数点表現の検討」</a>, 2,210,000 円, <b>代表者</b>. </li>
 <li>2015年4月 - 2018年3月：日本学術振興会 科学研究費助成事業 基盤研究(B), 15H02709, <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-15H02709/" target="_blank">「O(1億)コア環境におけるスケーラブルな数値計算ソフトウェアの理論と応用」</a>, 18,330,000 円, 分担者（代表者：今村俊幸）.</li>
-<li>2013年4月 - 2015年3月：日本学術振興会 科学研究費助成事業 特別研究員奨励費, 13J01290, <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-13J01290" target="_blank">「GPUスパコンのための3倍・4倍精度線形演算ライブラリの開発に関する研究」</a>, 2,070,000 円, 代表者.</li>
+      <li>2013年4月 - 2015年3月：日本学術振興会 科学研究費助成事業 特別研究員奨励費, 13J01290, <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-13J01290" target="_blank">「GPUスパコンのための3倍・4倍精度線形演算ライブラリの開発に関する研究」</a>, 2,070,000 円, <b>代表者</b>.</li>
 </ul>
     </section>
 
@@ -412,6 +416,7 @@ https://ipsj.ixsq.nii.ac.jp/records/2001244" target="_blank">SVMによる誤差�
 <li>2023年2月 - 2023年7月：Co-superviser of Master 2 research
 internship, University of Perpignan, Via Domitia (France).</li>
 <li>2018年9月 - 2019年1月：情報処理技法（リテラシ）II, 東京女子大学.</li>
+<li>その他：学内・学外共同研究による学生研究指導．インターンシップ研究指導．</li>
 </ul>
     </section>
 
