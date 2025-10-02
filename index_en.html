@@ -147,7 +147,13 @@ High-Performance Computing with Generative Neural Intelligence for Execution</a>
       <h2>Research</h2>
       <h3>Automatic HPC/numerical code generation using LLMs</h3>
       <p>As the performance of LLMs has improved significantly, not only interactive agents such as ChatGPT, but also technologies that assist for implementation or automatic generation of program code are being put into practical use. However, there are still many challenges in generating highly specialized codes. In particular, numerical codes used in HPC are highly challenging because they require high-level performance optimization. We are developing an LLM-assisted code generation method specialized for HPC and numerical codes through the coordination of multiple LLMs, iterative improvement of prompts, and the use of RAGs.</p>
-      
+       <div class="res_pub">
+      <h4>Related publications</h4>
+      <ul>
+        <li>Shun-ichiro Hayashi, Koki Morita, Daichi Mukunoki, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2510.00031" target="_blank">VibeCodeHPC: An Agent-Based Iterative Prompting Auto-Tuner for HPC Code Generation Using LLMs</a>, arXiv preprint arXiv:2510.00031, September 2025.</li>
+              <li>Daichi Mukunoki, Shun-ichiro Hayashi, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">Performance Evaluation of General Purpose Large Language Models for Basic Linear Algebra Subprograms Code Generation</a>, arXiv preprint arXiv:2507.04697, 2025.</li>
+        </ul>
+      </div>   
       <h3>High-precision operations using low-precision operations</h3>
       <p>For ordinary scientific computations, 64-bit floating-point arithmetic (FP64, so-called double precision) is used. However, there are processors that can perform lower-precision operations, such as 32-bit single-precision operations (FP32), 16-bit half-precision operations (FP16, BF16), etc. There are also some processors (e.g., AI-oriented processors) that do not support FP64 operations at all. We are developing methods for FP64-equivalent computation using low-precision arithmetic.</p>
        <div class="res_pub">
