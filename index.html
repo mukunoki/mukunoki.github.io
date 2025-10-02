@@ -61,11 +61,13 @@
       <p><a href="https://icts.nagoya-u.ac.jp/ja/center/" target="_blank">名古屋大学 情報基盤センター</a>において高性能計算（HPC），GPUコンピューティング，スーパーコンピューターにおける大規模並列計算，AI用プロセッサの低精度演算器の科学技術計算における活用に向けた研究，数値計算における混合精度計算，AI技術を活用した高性能計算・数値計算コードの生成技術などの研究開発を行っています．このほか<a href="https://www.hpc.itc.nagoya-u.ac.jp" target="_blank">所属研究室</a>の学生とともに自動チューニング，アプリケーションのGPU対応化などのさまざまな研究を行っています．</p>
     </section>
       <section id="news">
-      <h2>News / 最新情報（2025年9月29日更新）</h2>
+      <h2>News / 最新情報（2025年10月2日更新）</h2>
       <h3>Recent Research Activities / 最近の研究</h3>
       <ul>
         <li>大規模言語モデル（LLM）を利用したHPCコード・数値計算コードの自動生成に関する研究（関連：<a href="https://www.hpc.itc.nagoya-u.ac.jp/menu/hpc_genie.html" target="_blank">HPC-GENIEプロジェクト</a>）</li>
-        <ul><li>Daichi Mukunoki, Shun-ichiro Hayashi, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">Performance Evaluation of General Purpose Large Language Models for Basic Linear Algebra Subprograms Code Generation</a>, arXiv preprint arXiv:2507.04697, 2025.</li></ul>
+        <ul>
+         <li>Shun-ichiro Hayashi, Koki Morita, Daichi Mukunoki, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">VibeCodeHPC: An Agent-Based Iterative Prompting Auto-Tuner for HPC Code Generation Using LLMs</a>, arXiv preprint arXiv:2510.00031, September 2025.</li>
+        </ul>
         <li>AI向けプロセッサに搭載されている低精度演算器を利用した科学技術計算の実現に向けた研究（FP8やFP16などの低精度演算を使ってFP32やFP64に相当する計算を行う）</li>
         <ul>
           <li>Daichi Mukunoki, <a href="https://arxiv.org/abs/2508.00441" target="_blank">DGEMM without FP64 Arithmetic - using FP64 Emulation and FP8 Tensor Cores with Ozaki Scheme</a>, arXiv preprint arXiv:2508.00441, 2025.</li>
@@ -76,6 +78,7 @@
       <h3>Conference Presentation Schedule / 学会発表予定</h3>
       <ul>
 <li>椋木大地，林俊一郎，星野哲也，片桐孝洋，LLMを用いた数値計算コードの自動生成・自動性能最適化への挑戦と展望，物性研究所ソフトウェア開発・高度化プロジェクト研究会 〜計算物質科学の発展を支えるオープンソースソフトウェアの開発と普及，ポスター発表，2025年10月20日．</li>
+<li>林俊一郎，森田光貴, 椋木大地，星野哲也，片桐孝洋，LLMによるコード自動最適化「VibeCodeHPC」の開発状況と実験が示したマルチエージェントの優位性，物性研究所ソフトウェア開発・高度化プロジェクト研究会 〜計算物質科学の発展を支えるオープンソースソフトウェアの開発と普及，ポスター発表，2025年10月20日．</li>
       </ul>
         </section>
       
@@ -149,8 +152,11 @@
       <h3>大規模言語モデル（LLM）を用いたHPCコード・数値計算コードの自動生成</h3>
       <p>LLMの性能が著しく向上し，ChatGPTに代表される対話型エージェントだけでなく，プログラムコードの実装支援・自動生成技術が実用化されつつある．しかし専門性の高いコードの生成にはまだ多くの課題がある．特にHPCで用いる数値計算コードは高度な性能最適化が求められるため難易度が高く，現状では高度な知識を持った専門家の技術を必要としている．複数LLMの連携，プロンプトの反復的な改良，RAGの活用などの工夫により，HPC・数値計算コードに特化したLLM支援コード生成方式の開発を行っている．</p>
         <div class="res_pub">
-      <h4>主要な論文</h4>     
-              <ul><li>Daichi Mukunoki, Shun-ichiro Hayashi, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">Performance Evaluation of General Purpose Large Language Models for Basic Linear Algebra Subprograms Code Generation</a>, arXiv preprint arXiv:2507.04697, 2025.</li></ul>
+      <h4>主要な論文</h4>
+        <ul>
+        <li>Shun-ichiro Hayashi, Koki Morita, Daichi Mukunoki, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">VibeCodeHPC: An Agent-Based Iterative Prompting Auto-Tuner for HPC Code Generation Using LLMs</a>, arXiv preprint arXiv:2510.00031, September 2025.</li>
+              <li>Daichi Mukunoki, Shun-ichiro Hayashi, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">Performance Evaluation of General Purpose Large Language Models for Basic Linear Algebra Subprograms Code Generation</a>, arXiv preprint arXiv:2507.04697, 2025.</li>
+        </ul>
       </div>    
       
       <h3>低精度演算を利用した高精度演算の実現</h3>
@@ -248,6 +254,7 @@
 
     <h3>Technical Reports (Non-reviewed) / 研究報告等（査読なし）</h3>
 <ul>
+<li>Shun-ichiro Hayashi, Koki Morita, Daichi Mukunoki, Tetsuya Hoshino, Takahiro Katagiri, <a href="https://arxiv.org/abs/2507.04697" target="_blank">VibeCodeHPC: An Agent-Based Iterative Prompting Auto-Tuner for HPC Code Generation Using LLMs</a>, arXiv preprint arXiv:2510.00031, September 2025.</li>
 <li>樫村寛大，片桐孝洋，森崎修司，椋木大地，星野哲也，機械学習によるLAPACK固有値計算ルーチンのテストシーケンス最適化の試行，第201回ハイパフォーマンスコンピューティング研究発表会，2025年9月29日（in Japanese）．</li>
 <li>星野哲也，林俊一郎，椋木大地，片桐孝洋，塙敏博，GeoFEMを対象としたClaudeCodeによるGPUコード開発の評価，第201回ハイパフォーマンスコンピューティング研究発表会，2025年9月29日（in Japanese）．</li>
 <li>片桐孝洋，林俊一郎，椋木大地，星野哲也，大島聡史，HPC-GENIE: LLMを利用したHPCコード自動生成プロジェクト ー概要とケーススタディー，日本応用数理学会 2025年度年会講演予稿集，2025年9月 (in Japanese)．</li>
