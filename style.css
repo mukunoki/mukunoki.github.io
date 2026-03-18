@@ -163,6 +163,11 @@ main p {
 }
 
 
+.invited {
+	color: blue;
+	font-weight:bold;
+}
+
 .award {
 	color: red;
 	font-weight:bold;
